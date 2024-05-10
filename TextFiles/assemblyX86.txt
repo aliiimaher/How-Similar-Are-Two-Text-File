@@ -1,0 +1,44 @@
+What is x86 assembly? This is the first installment of a series of articles on x86 assembly. In this series of articles, readers will learn x86 assembly language fundamentals, which can help them in a variety of security domains such as malware analysis, reverse engineering and exploit development.
+
+This article covers some background information such as what x86 assembly is, its history and where it is used. In the subsequent articles, we will discuss various x86 assembly programming concepts.
+
+What is x86 assembly?
+Before understanding x86 assembly, let us begin by understanding what assembly language is. Assembly is a low-level programming language that can directly communicate with the processor. Processors can understand only 0s and 1s (binary), and it is very difficult for a human to provide instructions to the processor in binary language.
+
+Assembly language acts as a bridge between the human and processor. However, assembly language is machine-dependent. As it is very specific to the hardware processor family, programs written for one computer might not run in another computer with different hardware configurations. It means a program written for a machine running on an Intel processor might not work with a machine running on an ARM or MIPS processor. Hence, different processors need different assembly language instructions. It should be noted that compilers sometimes produce assembly code as an intermediate step when translating a high-level program into machine code. 
+
+Following are some of the examples of processor families:
+
+Intel (x86 and x86_64)
+ARM
+MIPS
+Assembly programming targeted specifically towards Intel 32 bit processors is known as x86 assembly. It should be noted that in addition to Intel processors, there may be other processors that use the same instruction set, AMD for instance.
+
+What are computer instruction sets (ISA)?
+We mentioned some example processor families earlier in this article. Not every processor can understand the same instructions.
+
+The instruction MOV R0, R2 works for an ARM-based processor but not an Intel processor. Similarly, the instruction MOV EAX, ECX can be understood by an intel processor but not an ARM processor. However, this instruction, which is part of x86 ISA, can be understood both by Intel and AMD processors. Another example is that it is not possible to do direct operations on memory in ARM and we can't perform computations on memory in ARM-based processors, whereas it is possible to do them in x86.
+
+The combination of instructions a CPU understands and the registers it knows about is called the Instruction Set Architecture (ISA). The instruction set architecture is the interface between your hardware and the software. The only way that you can interact with the hardware is the instruction set of the processor. In general, an ISA defines the supported data types, the registers, the hardware support for managing main memory, fundamental features such as the memory consistency, addressing modes, virtual memory, and the input/output model of a family of implementations of the ISA.
+
+An ISA may be classified in a number of different ways. A common classification is by architectural complexity. A complex instruction set computer (CISC) has many specialized instructions, some of which may only be rarely used in practical programs. A reduced instruction set computer (RISC) simplifies the processor by efficiently implementing only the instructions that are frequently used in programs.
+
+x86 history: History and origin of the x86 instruction set
+Before we get into the technical details of the x86-32 platform and assembly, a brief history of it might be helpful in understanding how the architecture has evolved over the years. x86 today is commonly referred to as an instruction set for Intel 32-bit processors.
+
+x86 is a family of instruction set architectures initially developed by Intel based on the Intel 8086 microprocessor and its 8088 variant. Intel first introduced 8-bit 8080 processors in 1974. Later, Intel introduced the 16-bit 8086 microprocessor in 1978 as an extension of Intel's 8-bit 8080 microprocessor. Several successors to Intel's 8086 processor have been released with the names 80186, 80286, 80386 and 80486.
+
+As you can notice, most of these processor names are ending with 86 and thus the term x86 came into existence. 80386 is Intel's first 32-bit type processor which was released in 1985 and continued with processors such as the Intel Pentium, Intel Pentium 4, Intel Pentium Core Duo, and the Advanced Micro Devices (AMD) Athlon.
+
+x86 usage: How and where x86 is used
+Most applications written in the early days of programming were written mostly in assembly language due to the fact that they had to fit in a small area of memory and run as efficiently as possible on slow processors.
+
+Coming to x86 processors, they are ubiquitous in both stationary and portable personal computers and are also used in midrange computers, workstations, servers, and most new supercomputer clusters. A large amount of software, including a large list of x86 operating systems such as Microsoft Windows, Android-x86, Firefox OS and Chrome OS are using x86-based hardware.
+
+See the next article in the series, Introduction to x86 assembly and syntax.
+
+Calling Convention
+To allow separate programmers to share code and develop libraries for use by many programs, and to simplify the use of subroutines in general, programmers typically adopt a common calling convention. The calling convention is a protocol about how to call and return from routines. For example, given a set of calling convention rules, a programmer need not examine the definition of a subroutine to determine how parameters should be passed to that subroutine. Furthermore, given a set of calling convention rules, high-level language compilers can be made to follow the rules, thus allowing hand-coded assembly language routines and high-level language routines to call one another.
+In practice, many calling conventions are possible. We will use the widely used C language calling convention. Following this convention will allow you to write assembly language subroutines that are safely callable from C (and C++) code, and will also enable you to call C library functions from your assembly language code.
+The C calling convention is based heavily on the use of the hardware-supported stack. It is based on the push, pop, call, and ret instructions. Subroutine parameters are passed on the stack. Registers are saved on the stack, and local variables used by subroutines are placed in memory on the stack. The vast majority of high-level procedural languages implemented on most processors have used similar calling conventions.
+The calling convention is broken into two sets of rules. The first set of rules is employed by the caller of the subroutine, and the second set of rules is observed by the writer of the subroutine (the callee). It should be emphasized that mistakes in the observance of these rules quickly result in fatal program errors since the stack will be left in an inconsistent state; thus meticulous care should be used when implementing the call convention in your own subroutines.

@@ -1,0 +1,72 @@
+Why Is Computer Programming Important?
+Computer programming is the lifeblood of modern life. Imagine for a moment what would happen if all computers suddenly disappeared tomorrow. No internet. No data. No connection. No convenience. 
+
+Computer programming is a fundamental skill for so many different applications, not just software development or cutting-edge research into artificial intelligence. It makes banking more accessible, smooths out supply lines, and creates those fantastic online experiences we love. Programming means your favorite jeans are one click away, and governments can open services faster and more efficiently during a crisis. Amazing, isn’t it? 
+
+What are the benefits of computer programming?
+Learning computer programming ensures that students have access to the creative, fast-paced world that relies on machine connections. Students can apply these skills to so many different industries and disciplines. Students that want a creative job can delve into 3D animation, web design, or even branding. Students with a drive for research can join AI initiatives and build research pipelines for scientists.
+
+Computer programming has become a sought-after skill even for positions that aren’t involved directly in computer science. Those who can talk to machines—even just a little—will find their resumes stand out in the job field, like language skills or communication skills.
+
+So much of the world is now automated. Students entering a job field will find computer programming skills necessary to maintain and troubleshoot these automation tools. They’ll be in a much better position to contribute to company collaborations and maximize the benefit of technology investments.
+
+Why is programming important for students?
+According to the Bureau of Labor Statistics, positions in specifically computer programming will decline slightly (10%) over the next ten years. However, when you look at different types of technology niches, BLS expects positions to explode. For example, computer information and research science positions will grow 22% over the next decade. Why is there a difference?
+
+Employers are beginning to ask for other departmental positions to take responsibility for programming. Companies also realize the value of finding an expert in a specific discipline—web design, for example, or artificial intelligence engineering—instead of a general computer programming position. In addition, increased automation could make programming by hand less common. However, employees still need knowledge to build and troubleshoot these tools.
+
+Burning Glassdoor Technologies noted a few years back that computer programming and coding skills were on the rise in job openings, but that didn’t necessarily translate precisely to computer programming-specific positions. A Forrester report commissioned by data visualization company, Tableau, noted a sharp rise in positions requiring digital skills with nowhere near the talent available to fill those positions.
+
+That’s good news for job seekers, and a very good reason to add computer programming to your list of training courses regardless of your career goals.
+
+How can computer programming or coding help the world?
+It’s challenging to think of a way computer programming wouldn’t help the world. Nearly the entire globe is either connected or readily seeking ways to increase connections. Computer programming offers many different benefits for the world, such as:
+
+Research and development: Research relies on data, and machines can help researchers aggregate, analyze, synthesize, and visualize data in ways human beings have not been capable of before. Programming skills allow people to build the vehicles that connect machines and humans.
+Government operations: Coders are responsible for large portions of the government’s digital transformation. New online portals allow citizens, organizations, and businesses to access government services more efficiently.
+Web development and design: Designers leverage computer programming skills to build online experiences in fields like eCommerce or entertainment. These sites provide access to the information and services held within the digital world and rely on user research to create experiences.
+Marketing and business operations: Computer programmers can also help businesses manage operations by building apps and tools for internal use or customer-facing solutions. 
+Data science and artificial intelligence: These exploding fields require software engineers to build environments suitable for processing and visualizing the data necessary to train models for data science and machine learning projects.
+Cybersecurity: Developers also build the solutions we need to keep our online interactions safe from threat actors. Mastery of different programming languages can help students launch their careers in this in-demand information technology sector.
+What is coding used for in everyday life?
+Every aspect of your life involves coding, from your bank app on your smartphone to Youtube. Programming skills can help in the job search even if you aren’t interested in technology-specific fields and can build employer-desired 21st-century skill sets like problem-solving skills and critical thinking.
+
+Most of us engage with programming in nearly every part of the modern world, so a basic understanding of its principles will always be an essential skill. These languages, algorithms, and models make our lives easier, but they aren't a mystery. Students can master this invisible world.
+
+How can I get started learning to code?
+Writing code requires practice. Many students find learning programming on their own is fine, thanks to free online resources. Others take a more traditional route for development know-how. 
+
+Programming courses help shorten the time it takes to master programming languages like Java, HTML, or Python because of mentors and an organized curriculum. Students can ask questions and collaborate with like-minded peers.
+
+edX offers courses designed with leaders in the world of computer programming. Students can take courses online for free to explore and develop new skills. Those looking to break into computer science or information technology positions can opt into official credit tracks for a fee. The platform even offers x-series options, certifications, and a few degrees.
+
+Building skills in computer programming provides students with a lifetime of valuable and useful skills. Whether you're interested in building the next generation of computer software or just want to understand how your favorite smartphone app works, computer coding can make a massive impact on your career and your life.
+
+What is the Impact of Coding on Our World?
+Before the Internet of Things (IoT) became the dominant market for necessities, computer code was already meeting all of our requirements. Driving to work, vacuuming, taking an elevator, doing laundry, and many other activities you rely on daily would not exist without the invention of computer programming. There are so many things that you use in daily life that use code. For example, smart fridges, smart watches, digital clocks, TVs, computers, laptops, etc. In this article, we will go in depth about the impact of coding in our world. 
+
+Impact of Coding on Our World
+Here’s the impact of coding in our world: 
+
+Mobile Devices
+These days, nearly everyone has a smartphone and access throughout the Internet. Most internet activity consists of using various mobile applications and websites. While social media apps may be the most popular apps people use on their smartphones, code is always at the core, regardless of the category.
+Over the past few years, the number of websites online has grown to around 1.14 billion that use a variety of programming languages.1 
+These days, people have everything they need at their fingertips thanks to the growth of websites and mobile applications. 
+Do you want to book a room, order a meal, chat with friends, search for employment, schedule a cab, and watch your favorite series and movies? The advent of computer programming has made the impossible possible.
+Operating Systems
+Operating systems, which run on virtually every computer in use today, have been widely lauded for their capabilities and rely heavily on programming languages as their basis. 
+The operating system is the backbone of any computing device. To put it simply, it controls everything from the computer’s software and hardware to its memory and operations. And it lets you talk to the computer even if you don’t understand its language. A computer is worthless if it doesn’t have an operating system.2
+Digital Assistants
+Today’s digital assistants simplify people’s lives by letting them find anything with a few simple voice commands. 
+Artificial intelligence (AI), machine learning, the IoT, and cloud computing are just some of the cutting-edge technology used in some of the most popular digital assistant apps we all use. 
+The unique programs developed in various programming languages are the driving force behind these technologies. 
+You may use voice commands to search for information, send emails, respond to text messages, set alarms, manage your smart home, reserve a seat on a bus, train, or airplane, and receive directions to any location, among many other things.
+Space Travel
+Since its inception, space exploration has relied heavily on computer programming. NASA is now using programming languages like Python to learn more about our planet and the universe.3 
+Python is at the heart of NASA’s creative solutions. To ensure the safety of astronauts on the moon and on Earth, programmers at space agencies employ code to construct applications that can detect certain compounds in specific locations, estimate radiation levels, and collect petabytes of data.4
+Learning to Code
+Simply explained, coding is the process of converting a set of instructions or a procedure into a language that computers can understand. This paves the way for countless new possibilities, including the development of apps and software, the creation of websites, video games, apps, and much more. Coding is a form of communication; it consists of special symbols and alphabets that machines can understand. 
+Learning to code is like learning any other language; it trains our brains to think and reason systematically.5 With software getting more complex with time, knowing how to use it is likely to be necessary for everybody living today or in the future.
+The number of schools recognizing the need to teach students how to code is also rising.6 Soon, technological progress will build a future in which humans and machines live in peace and harmony, and coding will serve as the primary means of communication. 
+A vast amount of information may be imparted to young children due to their open minds. Keeping in mind that children’s ability to learn new skills declines with age,7 schools have started teaching coding to students of all ages as part of the curriculum.6
+Undoubtedly, today’s programming languages affect nearly every facet of modern life. In many ways, it has improved our lives and the world around us. Everyday life is being aided by it, but commercial operations are being greatly enhanced, and even space organizations are receiving assistance.
